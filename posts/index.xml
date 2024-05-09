@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>框架</title>
+      <link>http://localhost:1313/posts/framework/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/framework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/command/</guid>
+      <description>nginx docker docker服务 启动docker服务&#xA;systemctl start/stop docker&#xA;查看docker状态&#xA;systemctl status docker&#xA;设置docker开机自启&#xA;systemctl enable/disable docker&#xA;重启docker服务&#xA;systemctl restart docker&#xA;查看docker信息&#xA;docker info&#xA;容器 查看docker运行中的容器&#xA;docker ps&#xA;查看docker所有容器&#xA;docker ps -a&#xA;查看容器日志&#xA;docker container logs xxx(容器id/名称)&#xA;持续查看容器日志&#xA;docker logs -f name&#xA;启动/停止容器&#xA;docker container start/stop/restart xxx(容器id/名称)&#xA;删除容器&#xA;docker container rm xxx(容器id/名称)&#xA;制作jdk镜像 创建Dockerfile文件 ，vi Dockerfile&#xA;FROM centos:7 ADD jdk-8u181-linux-x64.tar.gz /usr/local/docker/jdk8 ENV JAVA_HOME=/usr/local/docker/jdk8/jdk1.8.0_181 PATH=/usr/local/docker/jdk8/jdk1.8.0_181/bin:$PATH CMD [&amp;lsquo;bash&amp;rsquo;]&#xA;创建jdk镜像文件&#xA;docker build -t jdk:8 . #不要丢掉这里的点,-t表示镜像标识(镜像名),是tag单词的缩写.</description>
+    </item>
+  </channel>
+</rss>
